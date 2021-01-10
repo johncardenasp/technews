@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
+  background: #000000;
+  color: #ffffff;
+  /* Pattern from heropatterns.com */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navigation */
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  font-size: 1.7rem;
+}
+
+.nav-brand {
+  width: 50px;
+}
+
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 6px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Show case */
+hr {
+  margin: 10px 0;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 550px;
+  padding: 50px;
+  margin-bottom: 20px;
+  background: url("https://github.com/FaztWeb/technews-html/blob/master/img/showcase2.jpg?raw=true")
+    no-repeat center center/cover;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #262626;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
+}
+
+/* News-cards */
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 10px 0;
+}
+
+.news-cards img {
+  width: 100%;
+  height: 180px;
+}
+
+.news-cards h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.news-cards a {
+  display: inline-block;
+  padding: 10px 0;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.news-cards a:hover {
+  text-decoration: underline;
+}
+
+/* Cards banner one */
+.cards-banner-one {
+  width: 100%;
+  height: 350px;
+  background: url("https://github.com/FaztWeb/technews-html/blob/master/img/tech-red.jpg?raw=true")
+    no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+
+.cards-banner-one .content {
+  width: 50%;
+  padding: 100px 0 0 30px;
+}
+
+.cards-banner-one h2,
+.cards-banner-one p {
+  margin: 10px 0 20px 0;
+}
+
+/* Cards banner two */
+.cards-banner-two {
+  width: 100%;
+  height: 350px;
+  background: url("https://github.com/FaztWeb/technews-html/blob/master/img/image-five.jpg?raw=true")
+    no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+
+.cards-banner-two .content {
+  width: 50%;
+  padding: 100px 30px 0 0;
+  margin: 0 0 0 auto;
+  text-align: right;
+}
+
+.cards-banner-two h2,
+.cards-banner-two p {
+  margin: 10px 0 20px 0;
+}
+
+/* Social */
+.social {
+  margin: 50px;
+}
+
+.social p {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a i {
+  font-size: 30px;
+}
+
+/* Footer */
+.footer-links {
+  padding: 35px 0;
+  font-size: 1.2rem;
+  background-color: #2f3640;
+  color: #616161;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-container ul {
+  margin: 0 auto;
+}
+
+.footer-container ul li {
+  line-height: 2;
+}
+
+.footer-copyright {
+  padding: 20px 0 20px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #2f3640;
+  color: #616161;
+}
