@@ -1,10 +1,6 @@
 # TechNews
 
-A Front-end project from [FaztWeb](https://github.com/FaztWeb "FaztWeb").
-
-## About
-
-TechNews is a page focused on technology news.
+A Front-end project from [FaztWeb](https://github.com/FaztWeb "FaztWeb"). TechNews is a page focused on technology news.
 
 ## Preview
 
