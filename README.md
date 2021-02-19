@@ -1,6 +1,11 @@
 # TechNews
 
-A Front-end project from [FaztWeb](https://github.com/FaztWeb "FaztWeb"). TechNews is a page focused on technology news.
+TechNews is a page focused on technology news.
+- Build with HTML, CSS and JS Vanilla
+- Grid Layout and Flexbox
+- Integrate library for animations
+- Add interaction for the mobile version to display a menu
+
 
 ## Preview
 
